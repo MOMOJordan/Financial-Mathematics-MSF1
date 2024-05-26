@@ -25,8 +25,8 @@
 -Black & Scholes EDS using Euler and Milstein discretization
 
 dS_t = rS_tdt + \sigma S_t dB_t^Q
-Schéma d'Euler : S_{t+h} = S_t + hrS_t + \sqrt{h} \sqrt{\sigma}S_t Z, \quad avec \; Z\sim \mathcal{N}(0,1)
-Schéma de Milstein : S_{t+h} = S_t + hrS_t + \sqrt{h} \sqrt{\sigma}S_t Z + \frac{1}{2} \sigma^2 S_t h (Z^2-1), \quad avec \; Z\sim \mathcal{N}(0,1)
+Schéma d'Euler : $S_{t+h} = S_t + hrS_t + \sqrt{h} \sqrt{\sigma}S_t Z, \quad avec \; Z\sim \mathcal{N}(0,1)$
+Schéma de Milstein : $S_{t+h} = S_t + hrS_t + \sqrt{h} \sqrt{\sigma}S_t Z + \frac{1}{2} \sigma^2 S_t h (Z^2-1)$, \quad avec \; Z\sim \mathcal{N}(0,1)
 
 ![image](https://github.com/MOMOJordan/Financial-Mathematics-MSF1/assets/86100448/8c0a16a0-6736-46af-9dcf-b77996c7fcad)
 ![image](https://github.com/MOMOJordan/Financial-Mathematics-MSF1/assets/86100448/4bb67b57-2481-4212-afb8-1517e6320cad)
